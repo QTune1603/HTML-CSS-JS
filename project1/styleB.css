@@ -1,0 +1,34 @@
+.container{
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.box, .final{
+    width: 100px;
+    max-height: 150px;
+    min-height: 150px;
+    border-top: 1px;
+    border-left: 10px dotted #D0D0FF;
+    background-color: #eeeff2;
+    margin-left: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+.box:hover, .final:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: goldenrod;
+}
+
+.final{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
